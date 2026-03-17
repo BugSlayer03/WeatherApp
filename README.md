@@ -1,6 +1,6 @@
 # 🌤️ WeatherNow - Real-Time Weather App
 
-WeatherNow is a responsive and dynamic weather application that provides real-time weather information for any city in the world. It features a clean UI, live weather updates, and dynamically changing backgrounds based on the searched city.
+WeatherNow is a responsive and dynamic weather application that provides real-time weather information for any city in the world. It features a clean UI, and live weather updates.
 
 ## 🚀 Features
 
