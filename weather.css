@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background-image: url("bg3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    /* background-color: black; */
+}
+
+.heading {
+    height: 80px;
+    width: 100%;
+    background-color: darkblue;
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+
+}
+
+.name {
+    color: white;
+    font-size: 40px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    /* margin-left: 20px; */
+}
+
+.content {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    margin: auto;
+    margin-top: 55px;
+    border-radius: 20px;
+    background-color: darkblue;
+}
+
+.city_input {
+    height: 40px;
+    width: 400px;
+    font-size: 18px;
+    border-radius: 20px;
+    border: none;
+    padding: 0 15px;
+}
+
+.input_wrapper {
+    margin-left: 750px;
+}
+
+.location {
+    color: white;
+    width: 100%;
+    /* background-color: black; */
+    height: 70px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.date {
+    color: white;
+    width: 100%;
+    /* background-color: black; */
+    height: 70px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.temp {
+    color: white;
+    width: 100%;
+    /* background-color: black; */
+    height: 70px;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.condition {
+    color: white;
+    width: 100%;
+    /* background-color: black; */
+    height: 70px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.wind {
+    color: white;
+    width: 100%;
+    /* background-color: black; */
+    height: 70px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.lastUpdated{
+    color: white;
+    width: 100%;
+    /* background-color: black; */
+    height: 40px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 30px; */
+}
