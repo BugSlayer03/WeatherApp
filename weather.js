@@ -24,6 +24,7 @@ const fetchResults = async (targetLocation) => {
 
     let locationName = data.location.name;
     console.log(locationName);
+    let locationCountry=data.location.country;
     let locationTime = data.location.localtime;
     console.log(locationTime);
     let locationTemp = data.current.temp_c;
@@ -36,7 +37,7 @@ const fetchResults = async (targetLocation) => {
     let lastUpdate=data.current.last_updated;
 
     tempField.innerText = `${locationTemp}°C`;
-    locationField.innerText = locationName;
+    locationField.innerText = locationName+' , '+locationCountry;
     // dateField.innerText=locationTime;
     let dateObj = new Date(locationTime);
     dateField.innerText = dateObj.toDateString();
