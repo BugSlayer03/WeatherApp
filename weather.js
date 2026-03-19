@@ -11,12 +11,6 @@ const windSpeedField = document.querySelector('.wind .w1');
 const lastUpdateField=document.querySelector('.lastUpdated');
 // const windDirField=document.querySelector('.wind .w2');
 
-const countryAbbreviations = {
-    "United States of America": "USA",
-    "United Arab Emirates": "UAE",
-    "United Kingdom": "UK",
-};
-
 let target = 'Varanasi';
 
 const fetchResults = async (targetLocation) => {
@@ -31,9 +25,6 @@ const fetchResults = async (targetLocation) => {
     let locationName = data.location.name;
     console.log(locationName);
     let locationCountry=data.location.country;
-    if (countryAbbreviations[country]) {
-        country = countryAbbreviations[country];
-    }
     let locationTime = data.location.localtime;
     console.log(locationTime);
     let locationTemp = data.current.temp_c;
